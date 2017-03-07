@@ -14,4 +14,5 @@ cd ./..
 git add *
 git commit -m "Filter update $(date)"
 git push
+pihole -g
 
