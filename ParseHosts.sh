@@ -11,4 +11,7 @@ do
 	rm "${key/txt/unsorted}" "${key/txt/sorted}"
 done
 cd ./..
+git add *
+git commit -m "Filter update $(date)"
+git push
 
